@@ -1,10 +1,6 @@
 # GFLD
 
-## From automated detection to trustworthy decision support
-
-Conformal prediction and filtering for solid-waste dumping-site detection in remote-sensing imagery.
-
-This repository accompanies **“From automated detection to trustworthy decision support: a reliable AI framework for monitoring solid waste dumping sites using remote sensing.”** It provides bounding-box matching, conformal label-set prediction, conformal filtering, and their covariate-shift extensions.
+## From automated detection to trustworthy decision support: a reliable AI framework for monitoring solid waste dumping sites using remote sensing
 
 [Installation](#installation) | [Getting started](#getting-started) | [Demo notebooks](#demo-notebooks) | 
 
@@ -74,4 +70,4 @@ python scripts/check_notebooks.py
 
 ## Acknowledgments
 
-The selective-calibration approach builds on [cascaded-selective-evaluation](https://github.com/jaehunjung1/cascaded-selective-evaluation). Repository presentation is inspired by [TITAN](https://github.com/mahmoodlab/TITAN). Source attribution is retained in [NOTICE](NOTICE).
+The selective-calibration approach builds on [cascaded-selective-evaluation](https://github.com/jaehunjung1/cascaded-selective-evaluation). Repository presentation is inspired by [TITAN](https://github.com/mahmoodlab/TITAN), selective calibration(https://github.com/jaehunjung1/cascaded-selective-evaluation)
