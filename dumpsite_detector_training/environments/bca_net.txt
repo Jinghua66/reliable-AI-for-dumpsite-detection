@@ -1,0 +1,6 @@
+# Separate Python 3.8 environment for MMDetection 2.x; see environments/README.md.
+mmdet==2.10.0
+numpy==1.19.5
+Pillow==8.4.0
+opencv-python==3.4.18.65
+albumentations==0.5.2

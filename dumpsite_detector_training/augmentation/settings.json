@@ -1,0 +1,59 @@
+{
+  "groups": [
+    "baseline",
+    "balanced",
+    "color_jitter",
+    "sd_lora"
+  ],
+  "anchor_order": [
+    "agriculture forestry",
+    "construction waste",
+    "domestic garbage"
+  ],
+  "class_anchored_image_increments": {
+    "agriculture forestry": 1634,
+    "construction waste": 1447,
+    "domestic garbage": 460
+  },
+  "sampling": {
+    "seed": 42,
+    "rng": "numpy.random.RandomState",
+    "replace": true,
+    "unit": "rows of original_training_objects.csv in preserved order"
+  },
+  "generation": {
+    "scheduler": "EulerDiscreteScheduler",
+    "steps": 25,
+    "lora_checkpoint": 15000,
+    "lora_rank": 4,
+    "guidance": "RandomState(class_index).randint(50,150)/10; divide by 1.5 for construction",
+    "height_width": "base pipeline defaults"
+  },
+  "color_jitter": {
+    "choose": 2,
+    "choices": [
+      "brightness",
+      "saturation",
+      "contrast"
+    ],
+    "replace": false,
+    "brightness_saturation_offset": [
+      -50,
+      49
+    ],
+    "contrast_integer": [
+      40,
+      89
+    ],
+    "contrast_formula": "clip(image*(contrast/127+1)-contrast+10,0,255)",
+    "seed_policy": "explicit transform_seed per image"
+  },
+  "compositing": {
+    "target": "object_index",
+    "resize": "OpenCV INTER_LINEAR",
+    "placement": "original target bbox",
+    "annotations": "preserve every original object",
+    "missing_patch": "raise error"
+  },
+  "scope": "Method settings reference; command-line arguments and manifests control execution."
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "faster_rcnn_r50",
+    "source_file": "faster-rcnn_r50_fpn_1x_voc.py",
+    "source_sha256": "01388a8195d31c2eaa51bcfd70c572687338d04f5e54aabb983257b74377e691"
+  },
+  {
+    "id": "faster_rcnn_r101",
+    "source_file": "faster-rcnn_r101_fpn_1x_voc.py",
+    "source_sha256": "3d090ab0a47c472cfd06d164baa118b78aa696130e91a5dd25332c0f04ab1565"
+  },
+  {
+    "id": "faster_rcnn_x101",
+    "source_file": "faster-rcnn_x101_fpn_1x_voc.py",
+    "source_sha256": "8a0f20abf8941c5a16d2bf01d7e0f0ddc47d487e987c5497be31fbadea13951c"
+  },
+  {
+    "id": "faster_rcnn_fcos_r50",
+    "source_file": "faster-rcnn_r50_fpn_fcos-rpn_1x_voc.py",
+    "source_sha256": "f44f3283aa2d8ea823471292857465161ca89e05d59d105ad9921d3308d12454"
+  },
+  {
+    "id": "faster_rcnn_fcos_x101",
+    "source_file": "faster-rcnn_x101_fpn_fcos-rpn_1x_voc.py",
+    "source_sha256": "c82faaab1decb9ec7746f786fce67a815c91b674a644bd03f79c0217a2e1c67a"
+  },
+  {
+    "id": "cascade_rcnn",
+    "source_file": "cascade-rcnn_r50_fpn_1x_voc.py",
+    "source_sha256": "f42a05556e6e7f84b8a765a35690f27274b48028f0131d38bb740c8c4dfb0a15"
+  },
+  {
+    "id": "dynamic_rcnn",
+    "source_file": "dynamic-rcnn_r50_fpn_1x_voc.py",
+    "source_sha256": "6ea8e6c79121f86d4d00da57023c5674a871eaa6e3404f93b8bfbee5f736955d"
+  },
+  {
+    "id": "yolov3_lite",
+    "source_file": "yolov3_mobilenetv2_voc.py",
+    "source_sha256": "5002cd93215057fbde2d0bfa578b0e7debe5ac36fbe64705e1429adc4730fb62"
+  },
+  {
+    "id": "retinanet_r50",
+    "source_file": "retinanet_r50_fpn_1x_voc.py",
+    "source_sha256": "b20d83995f8b7445c79d8a8a795bd5e0634c7b93657ab4a246304cea7c7d72e0"
+  },
+  {
+    "id": "retinanet_x101",
+    "source_file": "retinanet_x101_fpn_1x_voc_with_color_jitter.py",
+    "source_sha256": "0206dd3fb80b0ac97d3da110212d840692ee0e77d8e65f1b0aaac95b884cb4e2"
+  },
+  {
+    "id": "fcos",
+    "source_file": "fcos_r50-caffe_fpn_gn-head_1x_voc.py",
+    "source_sha256": "02a2196d63075bd16b8c1103f4f0e5fd88628ef3a4fe7f1cbf3a794c7ea49ef0"
+  },
+  {
+    "id": "dab_detr",
+    "source_file": "dab-detr_r50_8xb2-50e_voc.py",
+    "source_sha256": "d3ece175f736c9dd7f98ac9c149f5fe3a43f20562035b7fea780996f8ca2af6a"
+  },
+  {
+    "id": "deformable_detr",
+    "source_file": "deformable-detr_r50_16xb2-50e_voc.py",
+    "source_sha256": "6ad2ae76f53425079e8b1d3d0f1174ea46c838dab990a0d750fcd7830e04e928"
+  },
+  {
+    "id": "deformable_detr_2stage",
+    "source_file": "deformable-detr-refine-twostage_r50_16xb2-50e_voc.py",
+    "source_sha256": "4decd3720b040b21063653ddb04afcf0130cc81f25be70d3c94cef9add7d08c9"
+  },
+  {
+    "id": "bca_net",
+    "source_file": "rd_cj1111.txt",
+    "source_sha256": "56c5961c5cbb3d743aa464c54378995c804a2086e63dfaac834da8928a57db36"
+  },
+  {
+    "id": "bca_backbone",
+    "source_file": "resnet_all_layer_SE.py",
+    "source_sha256": "0b8aadaa0827a3609a866fb4952e4905fa39018820c8f517162542fcc66041ea"
+  },
+  {
+    "id": "yolov5x",
+    "source_file": "yolov5_rd_generation_cj_train4/args.yaml",
+    "source_sha256": "0762e435f4566040024eff3ce4373ac815ee496e50616d76042a7678736beb77"
+  },
+  {
+    "id": "yolov8x",
+    "source_file": "yolov8_rd_generation_cj_train2/args.yaml",
+    "source_sha256": "35e5ab3fab6a5ed4895df0a4aeed27ca10bd9a5e2e19fc9d59a454614dad63bd"
+  },
+  {
+    "id": "yolo11x",
+    "source_file": "yolov11_rd_generation_cj_train/args.yaml",
+    "source_sha256": "44d4cecb848bdd23a9ad391e2e0ac8e98893fd0bf565452cd44f790f007a405c"
+  }
+]

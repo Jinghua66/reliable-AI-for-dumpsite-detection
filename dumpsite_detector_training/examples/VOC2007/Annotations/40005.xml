@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+  <filename>40005.jpg</filename>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>1024</width>
+    <height>1024</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>domestic garbage</name>
+    <pose>Unspecified</pose>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>926</xmin>
+      <ymin>417</ymin>
+      <xmax>1024</xmax>
+      <ymax>577</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>agriculture forestry</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>676</xmin>
+      <ymin>180</ymin>
+      <xmax>745</xmax>
+      <ymax>248</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>agriculture forestry</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>173</xmin>
+      <ymin>44</ymin>
+      <xmax>344</xmax>
+      <ymax>97</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>agriculture forestry</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>30</xmin>
+      <ymin>199</ymin>
+      <xmax>111</xmax>
+      <ymax>300</ymax>
+    </bndbox>
+  </object>
+</annotation>

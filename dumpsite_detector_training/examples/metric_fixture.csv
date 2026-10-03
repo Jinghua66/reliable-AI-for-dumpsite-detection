@@ -1,0 +1,3 @@
+image_id,class,score,xmin,ymin,xmax,ymax
+NI4527,construction waste,0.9,443,1,599,87
+NI4527,construction waste,0.8,443,1,599,87

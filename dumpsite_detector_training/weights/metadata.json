@@ -1,0 +1,11 @@
+{
+  "filename": "lora-15000.safetensors",
+  "bytes": 1631936,
+  "sha256": "9071c844721cc5717498b63e1327854caa6d994ac5f3e92150b3b8c61f69b842",
+  "checkpoint_step": 15000,
+  "base_model": "Stable Diffusion v1.5",
+  "rank": 4,
+  "tensor_dtypes": [
+    "BF16"
+  ]
+}

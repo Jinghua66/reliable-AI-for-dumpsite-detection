@@ -1,0 +1,6 @@
+# Python 3.10. Install PyTorch 2.1.2+cu118 and torchvision 0.16.2+cu118 first.
+ultralytics==8.3.4
+numpy==1.26.3
+Pillow==10.2.0
+opencv-python==4.10.0.84
+PyYAML==6.0.2

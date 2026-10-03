@@ -1,0 +1,110 @@
+[
+  {
+    "id": "faster_rcnn_r50",
+    "name": "Faster R-CNN(R50)",
+    "backend": "mmdet3",
+    "config": "configs/mmdet3/faster_rcnn_r50.py"
+  },
+  {
+    "id": "faster_rcnn_r101",
+    "name": "Faster R-CNN(R101)",
+    "backend": "mmdet3",
+    "config": "configs/mmdet3/faster_rcnn_r101.py"
+  },
+  {
+    "id": "faster_rcnn_x101",
+    "name": "Faster R-CNN(X101)",
+    "backend": "mmdet3",
+    "config": "configs/mmdet3/faster_rcnn_x101.py"
+  },
+  {
+    "id": "faster_rcnn_fcos_r50",
+    "name": "Faster R-CNN(R50)+FCOS-RPN",
+    "backend": "mmdet3",
+    "config": "configs/mmdet3/faster_rcnn_fcos_r50.py"
+  },
+  {
+    "id": "faster_rcnn_fcos_x101",
+    "name": "Faster R-CNN(X101)+FCOS-RPN",
+    "backend": "mmdet3",
+    "config": "configs/mmdet3/faster_rcnn_fcos_x101.py"
+  },
+  {
+    "id": "cascade_rcnn",
+    "name": "Cascade R-CNN",
+    "backend": "mmdet3",
+    "config": "configs/mmdet3/cascade_rcnn.py"
+  },
+  {
+    "id": "dynamic_rcnn",
+    "name": "Dynamic R-CNN",
+    "backend": "mmdet3",
+    "config": "configs/mmdet3/dynamic_rcnn.py"
+  },
+  {
+    "id": "yolov3_lite",
+    "name": "YOLOv3-lite",
+    "backend": "mmdet3",
+    "config": "configs/mmdet3/yolov3_lite.py"
+  },
+  {
+    "id": "retinanet_r50",
+    "name": "RetinaNet(R50)",
+    "backend": "mmdet3",
+    "config": "configs/mmdet3/retinanet_r50.py"
+  },
+  {
+    "id": "retinanet_x101",
+    "name": "RetinaNet(X101)",
+    "backend": "mmdet3",
+    "config": "configs/mmdet3/retinanet_x101.py"
+  },
+  {
+    "id": "fcos",
+    "name": "FCOS",
+    "backend": "mmdet3",
+    "config": "configs/mmdet3/fcos.py"
+  },
+  {
+    "id": "dab_detr",
+    "name": "DAB-DETR",
+    "backend": "mmdet3",
+    "config": "configs/mmdet3/dab_detr.py"
+  },
+  {
+    "id": "deformable_detr",
+    "name": "Deformable DETR",
+    "backend": "mmdet3",
+    "config": "configs/mmdet3/deformable_detr.py"
+  },
+  {
+    "id": "deformable_detr_2stage",
+    "name": "Deformable DETR(2-stage)",
+    "backend": "mmdet3",
+    "config": "configs/mmdet3/deformable_detr_2stage.py"
+  },
+  {
+    "id": "bca_net",
+    "name": "BCA-Net",
+    "backend": "mmdet2",
+    "config": "configs/mmdet2/bca_net.py"
+  },
+  {
+    "id": "yolov5x",
+    "name": "YOLOv5x6u",
+    "backend": "ultralytics",
+    "config": "configs/ultralytics/yolov5x.json"
+  },
+  {
+    "id": "yolov8x",
+    "name": "YOLOv8x",
+    "backend": "ultralytics",
+    "config": "configs/ultralytics/yolov8x.json"
+  },
+  {
+    "id": "yolo11x",
+    "name": "YOLO11x",
+    "backend": "ultralytics",
+    "config": "configs/ultralytics/yolo11x.json"
+  }
+]

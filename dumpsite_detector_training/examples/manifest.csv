@@ -1,0 +1,5 @@
+image_id,source_id,object_index,class,patch_file,generation_seed,transform_seed
+RD0000,60248,0,agriculture forestry,AF000RD.jpg,0,42
+RD0004,60266,0,agriculture forestry,AF004RD.jpg,4,46
+RD1634,CS8022,0,construction waste,CW000RD.jpg,0,1676
+RD3081,N00075,0,domestic garbage,DO000RD.jpg,0,3123

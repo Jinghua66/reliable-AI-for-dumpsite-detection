@@ -1,0 +1,42 @@
+{
+  "trainval.txt": {
+    "images": 2666,
+    "unique_images": 2666,
+    "instances": 3129,
+    "classes": {
+      "agriculture forestry": 247,
+      "construction waste": 581,
+      "domestic garbage": 2301
+    }
+  },
+  "trainval_RD.txt": {
+    "images": 6207,
+    "unique_images": 6207,
+    "instances": 8049,
+    "classes": {
+      "agriculture forestry": 2022,
+      "construction waste": 2513,
+      "domestic garbage": 3514
+    }
+  },
+  "trainval_BG.txt": {
+    "images": 6207,
+    "unique_images": 6207,
+    "instances": 8049,
+    "classes": {
+      "agriculture forestry": 2022,
+      "construction waste": 2513,
+      "domestic garbage": 3514
+    }
+  },
+  "test_713.txt": {
+    "images": 713,
+    "unique_images": 713,
+    "instances": 903,
+    "classes": {
+      "domestic garbage": 635,
+      "agriculture forestry": 142,
+      "construction waste": 126
+    }
+  }
+}

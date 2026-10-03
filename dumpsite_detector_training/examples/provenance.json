@@ -1,0 +1,26 @@
+{
+  "source_dataset": "Dumpsite VOC dataset",
+  "redistribution": "Example images provided with author authorization.",
+  "train_ids": [
+    "60248",
+    "60266",
+    "CS8022",
+    "N00075",
+    "10000",
+    "10001"
+  ],
+  "val_ids": [
+    "40034",
+    "40050",
+    "NI4401"
+  ],
+  "test_ids": [
+    "NI4527",
+    "40005",
+    "40052"
+  ],
+  "split_note": "Demonstration split: 6 training, 3 validation and 3 test images. Evaluation subsets are drawn from the full test-image pool and are disjoint from the example training images.",
+  "patch_source": "SD-generated patches supplied for the compositing demonstration.",
+  "generation_note": "The manifest contains generation settings. Regenerated pixels can vary with base-model snapshot, software and hardware.",
+  "training_weights": "Detector weights are not included."
+}
